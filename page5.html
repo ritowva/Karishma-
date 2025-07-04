@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Dream Hug – Page 5</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom right, #ffccdd, #ffe6f0);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .image-container {
+      animation: hugDance 4s ease-in-out infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes hugDance {
+      0% { transform: scale(1) rotate(0deg); }
+      25% { transform: scale(1.02) rotate(-1deg); }
+      50% { transform: scale(1.03) rotate(1deg); }
+      75% { transform: scale(1.02) rotate(-1deg); }
+      100% { transform: scale(1) rotate(0deg); }
+    }
+
+    img {
+      max-width: 90vw;
+      max-height: 50vh;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(255, 0, 100, 0.3);
+    }
+
+    .message {
+      font-size: 1.4em;
+      color: #99004d;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+
+    .next-button {
+      margin-top: 30px;
+      font-size: 18px;
+      background: #ff66a3;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .next-button:hover {
+      background: #e60073;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hugging animation image -->
+  <div class="image-container">
+    <img src="hug-scene-page5.jpg" alt="Us Hugging">
+  </div>
+
+  <!-- Love messages -->
+  <div class="message">
+    Baby, I can see you in my dreams every day. <br>
+    You are my cutie 🥰 <br>
+    My beloved, stay with me because you have my heartbeats 💋.
+  </div>
+
+  <!-- Next button -->
+  <a href="page6.html" class="next-button" target="content">Next ➤</a>
+
+</body>
+</html>
